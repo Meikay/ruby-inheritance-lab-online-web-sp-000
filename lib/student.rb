@@ -1,4 +1,9 @@
 class Student < User
-KNOWLEDGE = []
+  KNOWLEDGE = []
+
+  def learn(knowledge)
+    KNOWLEDGE << self
+  end
+
 
 end
